@@ -19,11 +19,9 @@
       </span>
   
       <div class="flex-1">
-        <strong class="block font-medium text-white"> Changes saved </strong>
+        <strong class="block font-medium text-white"> {{ session('message') }}</strong>
   
-        <p class="mt-1 text-sm text-white">
-            {{ session('message') }}
-        </p>
+        
       </div>
   
       
